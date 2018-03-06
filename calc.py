@@ -3,10 +3,9 @@ class Mimic(object):
     def mimic_dict(self, fn):
         with open(fn,'r') as f:
             words = f.read().lower().split()
-
+        return 1
         
     
-    return
-
-if __name__ = '__main__':
     
+if __name__ == '__main__':
+    fn = "sample_novel.txt"
