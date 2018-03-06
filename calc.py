@@ -11,4 +11,5 @@ class Mimic(object):
 if __name__ == '__main__':
     fn = "sample_novel.txt"
     print "aaa"
-    print "bbbb"
+    print "bbbb"   
+    print 'aaaaaaaa'
