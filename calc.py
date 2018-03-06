@@ -1,3 +1,13 @@
-Python 2.7.14 (v2.7.14:84471935ed, Sep 16 2017, 20:25:58) [MSC v.1500 64 bit (AMD64)] on win32
-Type "copyright", "credits" or "license()" for more information.
->>> print 'aaa'
+
+class Mimic(object):
+    m_dict={}
+    def mimic_dict(self, fn):
+        with open(fn,'r') as f:
+            words = f.read().lower().split()
+        return 1
+        
+    
+    
+if __name__ == '__main__':
+    fn = "sample_novel.txt"
+
